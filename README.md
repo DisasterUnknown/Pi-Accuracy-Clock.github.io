@@ -8,7 +8,7 @@ Ever wondered what would happen if you replaced `Math.PI` with just `3.14` in yo
 
 ## 🧪 I Built a Visualization
 
-A canvas-based radar animation (aka "π Clock") that shows how different approximations of π — like `3.14`, `22/7`, `3.14159`, and the true `Math.PI` — accumulate tiny errors over time.
+A canvas-based radar animation (aka "π Clock") that shows how different approximations of π , like `3.14`, `22/7`, `3.14159`, and the true `Math.PI` , accumulate tiny errors over time.
 
 It looks smooth at first...  
 But then:
@@ -18,7 +18,7 @@ But then:
 - 📉 Even one wrong decimal starts to spiral (pun intended) out of sync
 
 And the best part?  
-The canvas tracks and displays how many multiples of π your approximation has drifted away from the real value — in **real time**.
+The canvas tracks and displays how many multiples of π your approximation has drifted away from the real value , in **real time**.
 
 ---
 
@@ -31,7 +31,7 @@ The canvas tracks and displays how many multiples of π your approximation has d
 
 ---
 
-## 🎮 This Isn't Just Visual — It's Real
+## 🎮 This Isn't Just Visual , It's Real
 
 In actual games, this kind of math bug causes:
 
@@ -60,13 +60,13 @@ Hardcoded `3.14` shows up surprisingly often:
 - Day/night cycles fall out of phase  
 - Projectiles randomly miss over time
 
-🔍 These bugs are hard to detect — they often appear **only after minutes or hours** of live play.
+🔍 These bugs are hard to detect , they often appear **only after minutes or hours** of live play.
 
 ---
 
 ## 🧠 Takeaway
 
-- ✅ Use built-in constants like `Math.PI`, `M_PI`, or language equivalents — accurate to 15+ digits  
+- ✅ Use built-in constants like `Math.PI`, `M_PI`, or language equivalents , accurate to 15+ digits  
 - ❌ Don’t use `3.14`, `22/7`, or other approximations unless you're intentionally demonstrating failure (like here 😅)  
 - ⏱ Even errors in the 10th decimal place can break animation, simulation, or physics loops
 
@@ -77,17 +77,17 @@ Hardcoded `3.14` shows up surprisingly often:
 Visualize π drift in real-time right in your browser:  
 **🔗 [Pi Accuracy Clock Demo](https://disasterunknown.github.io/Pi-Accuracy-Clock.github.io/)**
 
-Just open `index.html` — no setup required.
+Just open `index.html` , no setup required.
 
 ---
 
 ## 💬 Final Thought
 
 If you're a game dev, graphics nerd, or math lover:  
-π isn't just a number — it's a **ticking time bomb** when mishandled. 💣🔁🎮
+π isn't just a number , it's a **ticking time bomb** when mishandled. 💣🔁🎮
 
 ---
 
 ## 🧾 License
 
-MIT — Free to learn, remix, or build upon.
+MIT , Free to learn, remix, or build upon.
